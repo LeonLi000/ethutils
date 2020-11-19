@@ -36,7 +36,7 @@ type EthReader struct {
 
 func NewRopstenReader() *EthReader {
 	nodes := map[string]string{
-		"ropsten-infura": "https://ropsten.infura.io",
+		"ropsten-infura": "https://ropsten.infura.io/v3/3ed3eadf912c4b31b800aafeedbf79eb",
 	}
 	clients := map[string]*rpc.Client{}
 	for name, c := range nodes {
