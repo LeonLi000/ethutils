@@ -1,4 +1,4 @@
-module github.com/tranvictor/ethutils
+module github.com/LeonLi000/ethutils
 
 go 1.15
 
